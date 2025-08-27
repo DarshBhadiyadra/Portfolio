@@ -12,6 +12,7 @@
 
 </head>
 <body>
+    <script src="script.js"></script>
     <!--NAVBAR-->
     <nav>
         <div class="left">
@@ -38,7 +39,7 @@
         <!--SECTION 1-->
         <section class="hero">
             <div class="text">
-                <h2>Hello, I'm Darsh</h2>
+                <h2>Hello, I'm Darsh Soni</h2>
                 <p>Hi, my name is Darsh, and I'm currently a student of B.Tech IT at GMIU, 
                     I've Completed Diploma IT at Sir B.P.T.I Bhavnagar   I have a strong interest 
                     in technology, design,and  business development and I like to learning new 
@@ -53,7 +54,7 @@
 
                 <a href="#">
                     <i class="fa-solid fa-message"></i>
-                    <span>Skills</span>
+                    <span>Message</span>
                 </a>
 
             </div>
@@ -74,32 +75,33 @@
                  of your background and experience in this field, knowing which IT skills 
                  you can work on to improve your performance may help you advance
                   your career.
-            </div>
+            </div><br>
+            <h2>I'm as a Front-End Developer</h2>
             <br>
             <div class="lang-cells">
                 <div class="cell">
                     <img src="https://i.ibb.co/SDmb0jFp/5968267.png">
-                    <span>HTML</span>
+                    <span><a>HTML</span><a></span>
                 </div>
 
                  <div class="cell">
                     <img src="https://i.ibb.co/4w8h2xpx/5968242.png" >
-                    <span>CSS</span>
+                    <span><a>CSS</a></span>
                 </div>
 
                  <div class="cell">
                     <img src="https://i.ibb.co/5Wkpnndw/1199124.png"  >
-                    <span>JAVASCRIPT</span>
+                    <span><a>JAVASCRIPT</a></span>
                 </div>
 
                  <div class="cell">
                    <img src="https://i.ibb.co/N2nqs7wH/5968350.png"  >
-                    <span> PYTHON</span>
+                    <span><a> PYTHON</a></span>
                 </div>
 
                 <div class="cell">
                     <img src="https://i.ibb.co/pBQV9bp9/5968282.png" >
-                    <span>JAVA</span>
+                    <span><a>JAVA</a></span>
                 </div>
             </div>
         </section>
@@ -110,15 +112,15 @@
                 <h2>Contact</h2><br>
                 <form>
                     <label for="name">Name:</label>
-                    <input type="text" placeholder="Enter Name"><br>
+                    <input type="text" placeholder="Enter Name" id="name"><br>
 
                      <label for="email">E-mail:</label>
-                    <input type="email" placeholder="Enter E-mail"><br>
+                    <input type="email" placeholder="Enter E-mail" id="mail"><br>
 
                      <label for="message">Message:</label>
-                    <textarea placeholder="Write Message" rows="5" cols="3"></textarea><br>
+                    <textarea placeholder="Write Message" rows="5" cols="3" id="message"></textarea><br>
 
-                    <input type="submit" value="Send Message" class="btn"></button><br><br>
+                    <input type="submit" value="Send Message" class="btn" id="btn" onclick="showmessage()"></button><br><br>
                 </form>
             </div>
         </section>
