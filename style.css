@@ -124,7 +124,7 @@ main  .hero .links a{
         padding: 10 10px;
     }
     nav .left a{
-        font-size: 17px;
+        font-size: 18px;
         background:linear-gradient(#ffd78a,#f4762d);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; 
@@ -133,7 +133,7 @@ main  .hero .links a{
         display: none;
     }
     nav .right a{
-        font-size: 19px;
+        font-size: 16px;
     }
     nav .right a:last-child{
         background-color: transparent;
