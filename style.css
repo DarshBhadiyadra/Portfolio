@@ -121,16 +121,19 @@ main  .hero .links a{
 }
 @media only screen and (max-width:600px) {
     nav{
-        padding: 10 11px;
+        padding: 10 10px;
     }
     nav .left a{
-        font-size: 16px;
+        font-size: 17px;
+        background:linear-gradient(#ffd78a,#f4762d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
     }
      nav .right span{
         display: none;
     }
     nav .right a{
-        font-size: 21px;
+        font-size: 19px;
     }
     nav .right a:last-child{
         background-color: transparent;
