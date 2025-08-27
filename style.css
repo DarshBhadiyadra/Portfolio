@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:cornsilk;
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+/*NAVBAR*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10  50px;
+    height: 80px;
+}
+nav .left a{
+    color:black;
+    font-weight: bold;
+}
+nav .right a{
+    color: black;
+    margin: 0 10px;
+}
+nav .right a:last-child{
+    color: white;
+    padding: 5 10px;
+    background-color:black ;
+    border-radius: 5px 5px 5px 5px;
+}
+nav .right span{
+    margin:5px;
+}
+main  .hero .text h2{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+main  .hero .text p{
+        margin-top: 10px;
+        margin-left: 50px;
+}
+main  .hero .links a{
+        color: black;
+        display: inline-block;
+        margin-left:50px;
+        border-radius: 5px 5px 5px 5px;
+        padding: 5 10px;
+        background-color: transparent;
+        border:2px solid blue;
+        font-size: 22px;
+}
+.hero{
+    display: flex;
+}
+.hero .headshot img{
+    padding: 0 10px;
+    width: 85%;
+    height:100%;
+    border-radius: 200px ;
+
+}
+.skills{
+    padding: 0 10px;
+}
+.skills h2{
+    text-align: center;
+}
+.skills .text{
+    margin: 0 50px;
+}
+.skills .lang-cells{
+    display: flex;
+    justify-content: center;
+}
+.skills .lang-cells .cell{
+     display: flex;
+     margin: 10px;
+     align-items:center; 
+     border: 1px solid  black;
+}
+.skills .lang-cells .cell img{
+    height: 50%;
+}
+.contact{
+    margin: 0 50px;
+}
+.contact .group form {
+    display: flex;
+   flex-direction: column;
+}
+.contact .group form  input{
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 10px;
+    border-color: transparent;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+.contact .group form  textarea{
+    width: 50%;
+    padding-left: 10px;
+    font-size: 30px;
+    border-color: transparent;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+.contact .group form  label{
+    font-size: 30px;
+}
+.btn{
+     width: 50%;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 10px;
+    background-color:khaki;
+    border-radius: 10px;
+    border-color: bisque;
+}
+@media only screen and (max-width:600px) {
+    nav{
+        padding: 10 11px;
+    }
+    nav .left a{
+        font-size: 16px;
+    }
+     nav .right span{
+        display: none;
+    }
+    nav .right a{
+        font-size: 21px;
+    }
+    nav .right a:last-child{
+        background-color: transparent;
+        color: black;
+    }
+    main  .hero .text h2{
+        margin-left: 10px;
+    }
+    main  .hero .text p{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    main  .hero .links a{
+        color: black;
+        margin-left:10px;
+        font-size: 22px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero .headshot img{
+        margin-top: 15px;
+        border: 1000px;
+    }
+    .skills .lang-cells{
+        flex-direction: column;
+    }
+    .skills .lang-cells .cell{
+     display: flex;
+     height: 40px;
+     padding: 1px;
+     align-items:center; 
+
+     border: 1px solid  black;
+    }
+    .contact{
+    margin: 0 20px;
+    }
+    .contact .group form{
+        flex-direction: column;     
+    }
+    .contact .group form  label{
+        font-size: 20px;
+    }
+    .contact .group form  input{
+
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    }
+    .contact .group form  textarea{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+    }
+}
