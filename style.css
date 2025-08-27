@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     background-color:cornsilk;
     font-family: 'Poppins',sans-serif;
@@ -120,6 +124,9 @@ main  .hero .links a{
     border-color: bisque;
 }
 @media only screen and (max-width:600px) {
+    html{
+    scroll-behavior: smooth;
+    }
     nav{
         padding: 10 10px;
     }
