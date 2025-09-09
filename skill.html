@@ -6,7 +6,6 @@
     <style>
 	body{
 		background-color: #f4f7f6;
-        margin: 0;
         padding: 20px;
         display: flex;
 		flex-direction: column;
@@ -25,7 +24,6 @@
 		display: grid;
 		gap:50px;
 		padding:20px;
-		width:100%;
         justify-content: center;
 		grid-template-columns: repeat(2,1fr);
 	}
@@ -45,7 +43,20 @@
 		width:100%;
 		height:100%;
 	}
-	
+	@media only screen and (max-width:600px) {
+		.skills-grid{
+			display:flex;
+			flex-direction:column;
+			grid-template-columns: repeat(1fr);
+			padding:10px;
+			align-items:center;
+		}
+		.skill-card{
+			align-items:center;
+			width:100%;
+			height:100%;
+		}
+	}
     </style>
 </head>
 <body>
@@ -53,20 +64,20 @@
         <h1>My Works Skills</h1>
         <div class="skills-grid">
             <div class="skill-card">
-                <h3>Figma</h3>
+                <h3>HTML</h3>
                 <p>Sample text. Click to select the Text Element.</p>
             </div>
             <div class="skill-card">
 
-                <h3>WordPress</h3>
+                <h3>CSS</h3>
                 <p>Sample text. Click to select the Text Element.</p>
             </div>
             <div class="skill-card">
-                <h3>ReactJS</h3>
+                <h3>JS</h3>
                 <p>Sample text. Click to select the Text Element.</p>
             </div>
             <div class="skill-card">
-                <h3>HTML</h3>
+                <h3>PYTHON-JAVA</h3>
                 <p>Sample text. Click to select the Text Element.</p>
             </div>
         </div>
